@@ -1,7 +1,7 @@
 
 header{
     height: 20vh;
-    min-width: 100vw;
+    width: 100vw;
 }
 
 div{
@@ -43,8 +43,8 @@ footer{
     margin: 0;
     padding: 0;
     max-height: 15vh;
+    max-width: 15vh;
     object-fit: scale-down;
-    justify-self: auto;
 }
 
 #plus{
@@ -65,7 +65,7 @@ footer{
     #slider{
         img{
             filter: grayscale(100%);
-            max-width: 20vw;
+            max-width: 19.4vw;
         }
         img:hover{
             filter: none;
